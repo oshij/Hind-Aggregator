@@ -1,0 +1,462 @@
+<!--<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+        <link href = https://fonts.googleapis.com/css?family=Poppins" rel = "stylesheet">
+        <link rel = "stylesheet" href = "HindAggMain.css"/>
+        <script defer src = "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <title>HIND MAIN</title>
+    </head>
+    <body background = "IndianFlagBG.png" style = "background-size: cover;">
+        <nav>
+            <div class = "search-bar">
+                <input class = "search-txt" type = "text" name = "" placeholder = "Type to search">
+                <a class = "search-btn" href = "#">
+                    <i class = "fas fa-search"></i>
+                </a>
+            </div>
+            <div class = "logo">
+                <h4>Hind Aggregator</h4>
+            </div>
+            <ul class = "nav-links">
+                <li>
+                    <a href = "HindAggMain.html">Home</a>
+                </li>
+                <li>
+                    <a href = "Login.html">Login</a>
+                </li>
+                <li>
+                    <a href = "#">Categories</a>
+                </li>
+                <li>
+                    <a href = "#">About Us</a>
+                </li>
+                <li>
+                    <a href = "#">Contact Us</a>
+                </li>
+            </ul>
+            <div class = "navtool">
+                <div class = "line1"></div>
+                <div class = "line2"></div>
+                <div class = "line3"></div>
+            </div>
+        </nav>
+        <script>const navSlide = () =>
+            {
+                const navtool = document.querySelector('.navtool');
+                const nav = document.querySelector('.nav-links');
+                const navLinks = document.querySelectorAll('.nav-links li');
+                navtool.addEventListener('click', () =>
+                {
+                    nav.classList.toggle('nav-active');
+                    navLinks.forEach((link,index) => 
+                    {
+                        if (link.style.animation)
+                        {
+                            link.style.animation = '';
+                        }
+                        else
+                        {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    navtool.classList.toggle('toggle');
+                });
+            }
+            navSlide();
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="HindAggMain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="#">HindAggregator</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="banner"></div>
+  <div class="about">
+    <div class="content">
+      <div class="title">Responsive Sticky Navigation Menu Bar on Scroll using HTML CSS & JavaScript</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo impedit atque consequatur! Iusto distinctio temporibus repellendus labore odit adipisci harum ipsa beatae natus, eum eius, hic aperiam odio! Quasi molestias magnam illo voluptatem iusto ipsam blanditiis, tempore cumque reiciendis quaerat vero tenetur, sequi dolores libero voluptas vitae voluptate placeat dolorum modi ipsa nisi repellat facilis aliquam asperiores. Aut nam repellat harum quas saepe dolorum voluptates ratione, itaque consectetur explicabo a facilis rem mollitia maxime repudiandae fuga reprehenderit, odio cum incidunt labore molestiae quis non perferendis ipsam. Illum, in, deserunt. Ipsa.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit hic excepturi nobis id, eos dolor libero, nam assumenda, at culpa quos perspiciatis ratione ea modi! Natus sapiente a, explicabo sit quisquam eligendi esse provident eos enim doloremque blanditiis aut placeat veniam, libero nostrum quae. Ipsam, iste reprehenderit minima accusantium illo dolorem recusandae, ipsa autem quidem reiciendis a mollitia sit tenetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint doloremque perspiciatis voluptate ducimus reiciendis rem expedita voluptatibus dicta harum, quo, aspernatur maiores possimus officia quod? Aliquid molestiae illo sequi, tempora perferendis at incidunt nam porro voluptatibus, iste aperiam blanditiis adipisci ducimus repellendus distinctio nostrum ipsum! Voluptas facilis cum, atque tempora magnam beatae sequi! Doloribus expedita, cupiditate quo quod nemo aliquam, mollitia cum ea nam ullam soluta temporibus! Repudiandae incidunt consequatur distinctio deleniti obcaecati sit facilis unde, quisquam veniam ad doloribus!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veniam error deleniti cum beatae non assumenda illum est dolores, possimus suscipit quibusdam eveniet id fuga dolore unde modi, sapiente voluptas. Mollitia veritatis explicabo cumque enim quia voluptates provident totam perferendis excepturi animi assumenda optio minus laudantium eveniet possimus amet blanditiis dolore in fuga atque, earum officia tempora quam similique est.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ad sunt distinctio quidem incidunt cupiditate sequi deleniti, corrupti officia nam veritatis facilis veniam dolorum enim nisi ipsum dolor rem! Doloribus, eaque odit voluptatem iste laboriosam provident facere quo. Cum repellat pariatur, error ratione repellendus nisi quam culpa tempora facere in atque nesciunt, magni est aliquid unde soluta optio! Dolore pariatur, quaerat quo in cupiditate deleniti exercitationem. Facilis suscipit corporis unde aut minima nihil, eum molestias itaque, tenetur, beatae ipsa at!</p>
+    </div>
+  </div>
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="HindAggMain.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background: url(https://images.unsplash.com/photo-1482686115713-0fbcaced6e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2067&q=80);">
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo">HindAggregator</div>
+        <ul class="links">
+          <li><a href="HindAggMain.html">Home</a></li>
+          <li>
+            <a href="#" class="desktop-link">Categories</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Categories</label>
+            <ul>
+              <li><a href="Topics (1).html">Topics</a></li>
+              <li><a href="https://services.india.gov.in/">Services</a></li>
+              <li><a href="Government.html">Government</a></li>
+              <li><a href="AboutIndia.html">About India</a></li>
+            </ul>
+          </li>
+          <li><a href="https://e20cse135.medium.com/hind-aggregator-3a38ff6bf364">About Us</a></li>
+          <li><a href="https://hindagg096099135.000webhostapp.com/Contact.php">Contact Us</a></li>
+          <li><a href="https://hindagg096099135.000webhostapp.com/login-user.php">LOGIN</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+</div>
+<!--image slider start-->
+<div class="body1" style="margin:0;padding:0;height:100vh;justify-content:center;align-items:center;">
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+        <a href="https://e-amrit.niti.gov.in/home">
+          <img src="https://www.india.gov.in/sites/upload_files/npi/files/electric-vehicle-ev.jpg" alt="">
+        </a>
+        </div>
+        <div class="slide">
+        <a href="https://amritmahotsav.nic.in/">
+          <img src="https://www.india.gov.in/sites/upload_files/npi/files/azadi75_0.jpg" alt="">
+        </a>
+        </div>
+        <div class="slide">
+        <a href="https://www.education.gov.in/sites/upload_files/mhrd/files/nipun_bharat_eng1.pdf">
+          <img src="https://www.india.gov.in/sites/upload_files/npi/files/NIPUN-Bharat.jpg" alt="">
+        </a>
+        </div>
+        <div class="slide">
+        <a href="https://www.india.gov.in/spotlight/ayushman-bharat-digital-mission-abdm">
+          <img src="https://www.india.gov.in/sites/upload_files/npi/files/abdm.jpg" alt="">
+        </a>
+        </div>
+        <div class="slide">
+        <a href="https://www.india.gov.in/spotlight/pm-gati-shakti-national-master-plan-multi-modal-connectivity">
+          <img src="https://www.india.gov.in/sites/upload_files/npi/files/gatishakti.jpg" alt="">
+        </a>
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+    </div>
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 5){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+    <!-- start sw-rss-feed code --> 
+<div class="rss" style="width:300px;position: relative;top:165px;left:135px;">
+    <h2 style="position:relative;left:140px;color: white;">India Newsfeed Live</h2>
+<script type="text/javascript"> 
+<!-- 
+rssfeed_url = new Array(); 
+rssfeed_url[0]="https://news.google.com/rss/topics/CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE?hl=en-IN&gl=IN&ceid=IN%3Aen"; rssfeed_url[1]="https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms";  
+rssfeed_frame_width="600"; 
+rssfeed_frame_height="300"; 
+rssfeed_scroll="on"; 
+rssfeed_scroll_step="3"; 
+rssfeed_scroll_bar="on"; 
+rssfeed_target="_blank"; 
+rssfeed_font_size="20"; 
+rssfeed_font_face=""; 
+rssfeed_border="on"; 
+rssfeed_css_url=""; 
+rssfeed_title="on";
+rssfeed_title_name="India News (Google & Times of India)";
+rssfeed_title_bgcolor="#4B4480"; 
+rssfeed_title_color="#fff"; 
+rssfeed_title_bgimage=""; 
+rssfeed_footer="on"; 
+rssfeed_footer_name="rss feed"; 
+rssfeed_footer_bgcolor="#fed9ff"; 
+rssfeed_footer_color="#333"; 
+rssfeed_footer_bgimage=""; 
+rssfeed_item_title_length="50"; 
+rssfeed_item_title_color="#000"; 
+rssfeed_item_bgcolor="#fed9ff"; 
+rssfeed_item_bgimage=""; 
+rssfeed_item_border_bottom="on"; 
+rssfeed_item_source_icon="on"; 
+rssfeed_item_date="on"; 
+rssfeed_item_description="on"; 
+rssfeed_item_description_length="120"; 
+rssfeed_item_description_color="#666"; 
+rssfeed_item_description_link_color="#333"; 
+rssfeed_item_description_tag="off"; 
+rssfeed_no_items="0"; 
+rssfeed_cache = "03c8a0e58f8b19a8e12167e8aa72a6b8"; 
+//--> 
+</script> 
+<script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+<div style="color:#ccc;font-size:10px; text-align:right; width:700px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div> 
+</div>
+<div class="container" style="float:right;width:41%;position:relative;bottom:220px;right:120px;">
+    <h2 style="position:relative;left:105px;color: white;">Digital India - Initiatives</h2>
+  <div class="btn-group btn-group-justified">
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary" style="background: darkslateblue;" onclick="scrolli()">Infrastructure</button>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary" style="background: darkslateblue;" onclick="scrolls()">Services</button>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary" style="background: darkslateblue;" onclick="scrolle()">Empowerment</button>
+    </div>
+  </div>
+</div>
+<div id="scroll" style="background-color: #fed9ff;
+        width: 591px;
+        height: 267px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        position:relative;bottom:123px;left:487px;float:right;">
+    <div id="infrastructure">
+    <h2>AADHAR</h2>
+    Aadhaar identity platform is one of the key pillars of ‘Digital India’, wherein every resident of the country is provided with a unique identity or Aadhaar number. The largest biometrics based identification system in the world, Aadhaar is a strategic policy tool for social and financial inclusion, public sector delivery reforms, managing fiscal budgets, increase convenience and promote hassle-free people-centric governance. It is unique and robust enough to eliminate duplicate or fake identities and may be used as a basis/primary identifier to roll out several Government welfare schemes and programmes for effective service delivery thereby promoting transparency and good governance.<br>
+    <a href="https://uidai.gov.in/">Click for Website</a><br><br>
+    <h2>DIGILOCKER</h2>
+    DigiLocker is a Digital Wallet to empower citizens digitally. It’s a secure cloud based platform for issuance, sharing and verification of critical lifelong documents or certificates. It has created a new paradigm for true paperless governance by promoting usage of digital documents. Currently, DigiLocker provides access to more than 347 crore authentic digital documents issued from over 100 issuers comprising of Central & State agencies such as Transport Department, Income Tax Department, Revenue Department, State & Central Education Boards etc.<br>
+    <a href="https://digilocker.gov.in/">Click for Website</a><br><br>
+        <h2> DIGITIZE INDIA PLATFORM</h2>
+    Digitize India Platform (DIP) is an initiative of the Government of India under the Digital India Programme to provide digitization services for scanned document images or physical documents for any organization. The aim is to digitize and make usable all the existing content in different formats and media, languages, digitize and create data extracts for document management, IT applications and records management.<br>
+    <a href=https://digitizeindia.gov.in/>Click for Website</a><br><br>    
+    <h2>ESIGN</h2>
+    eSign is an online electronic signature service which can be integrated with service delivery applications via an open API to facilitate an Aadhaar holder to digitally sign a document. Using authentication of the Aadhaar holder through Aadhaar e-KYC service, online electronic signature service is facilitated<br>
+    <a href=http://cca.gov.in/>Click for Website</a><br><br>
+        <h2>INTEGRATED HEALTH INFORMATION SYSTEM</h2>
+    An Integrated Health Information Platform (IHIP) is being setup by the Ministry of Health and Family Welfare (MoHFW). The primary objective of IHIP is to enable the creation of standards compliant Electronic Health Records (EHRs) of the citizens on a pan-India basis along with the integration and interoperability of the EHRs through a comprehensive Health Information Exchange (HIE) as part of this centralized accessible platform.<br>
+    <a href=https://www.nhp.gov.in/>Click for Website</a><br><br>
+        <h2> IRCTC CONNECT</h2>
+    In order to cater to the growing demand of passengers to make the ticketing application more user-friendly and faster, IRCTC Connect was developed. The new app with several add-on features is based on the next generation e-ticketing system. Synchronised with the ticketing website, the app facilitates search and book train tickets, check existing reservations or cancel them, and get upcoming journey alerts<br>
+    <a href=https://www.irctc.co.in/eticketing/loginHome.jsf>Click for Website</a><br><br>
+    </div>
+    <div id="services">
+        <h2> BETI BACHAO BETI PADHAO</h2>
+    The campaign aims at ensuring girls are born, nurtured and educated without discrimination to become empowered citizens of this country. The campaign interlinks National, State and District level interventions with community level action in 100 districts, bringing together different stakeholders for accelerated impact. The initiatives youtube channel show various videos related to the campaign.<br>
+    <a href=http://wcd.nic.in/BBBPScheme/main.htm>Click for Website</a><br><br>
+    <h2> BHIM (BHARAT INTERFACE FOR MONEY)</h2>
+    Bharat Interface for Money (BHIM) is an app that makes payment transactions simple, easy and quick using Unified Payments Interface (UPI). It enables direct bank to bank payments instantly and collect money using a Mobile number or Payment address. Bharat Interface for Money app is currently available on Android and it is downloadable from Google Playstore, for smart phones.<br>
+    <a href=http://www.bhimupi.org.in/>Click for Website</a><br><br>
+    <h2> DIGITAL AIIMS</h2>
+    The first step in the Digital AIIMS project was taken in January 2015 with the creation of an effective linkage between AIIMS, Unique Identification Authority of India (UIDAI) and the Ministry of Electronics and Information Technology (MeiTY). A unique health identification number for every patient visiting AIIMS was generated on an Aadhar platform. The Unique Health Identification Number gave every Patient visiting AIIMS a Digital Identity.<br>
+    <a href=http://ehospital.nic.in/ehospital/>Click for Website</a><br><br>
+    <h2> E-HOSPITAL</h2>
+   The e-Hospital application is a Hospital Management Information System (HMIS) for internal workflows and processes of hospitals. This one-stop solution helps in connecting patients, hospitals and doctors on a single digital platform. The application is developed based on the global healthcare standards like HL7, SNOMED-CT, ICD10 and LOINC, and Meta Data and Data Standards (MDDS) published by the Ministry of Health & Family Welfare (MoHFW). e-Hospital is made available to Central Government/ State Government/ Autonomous/ Cooperative hospitals on cloud through SaaS (Software as a Service) model.<br>
+    <a href=http://ehospital.nic.in/ehospital/>Click for Website</a><br><br>
+    <h2> E-PATHSHALA</h2>
+    Developed by NCERT, e-Pathshala showcases and disseminates all educational e-resources including textbooks, audio, video, periodicals and a variety of other print and non-print materials through website and mobile app. The platform addresses the dual challenge of reaching out to a diverse clientele and bridging the digital divide (geographical, socio-cultural and linguistic), offering comparable quality of e-contents. All the concerned stakeholders such as students, teachers, educators and parents can access e-books through multiple technology platforms i.e. mobile phones (android, iOS and Windows platforms), and tablets (as e-pub) and on web through laptops and desktops (as flipbooks).<br>
+    <a href=http://epathshala.nic.in/>Click for Website</a><br><br>
+     <h2> EPFO WEB PORTAL & MOBILE APP</h2>
+    The web portal for Employees' Provident Funds Ordinance allows employees to check their EPF balance through an ePassbook which is an online version of their physical passbook. The mobile app allows the members to activate their UAN accounts from the comfort of their mobile phones and can also access their accounts for viewing their monthly credits through the passbook as well view their details available with EPFO. Similarly the EPF pensioners have been given the facility to access their pension disbursement details through this mobile app. Likewise, the employer can also view their remittance details.<br>
+    <a href=http://epfindia.gov.in/site_en/>Click for Website</a><br><br>
+      <h2>FARMER PORTAL</h2>
+    The portal is envisaged to make available relevant information and services to the farming community and private sector through the use of information and communication technologies, to supplement the existing delivery channels provided for by the department. Farmers’ Portal is an endeavour in this direction to create one-stop-shop for meeting all informational needs relating to Agriculture, Animal Husbandry and Fisheries sectors production, sale/storage of an Indian farmer. With this Indian Farmer will not be required to sift through maze of websites created for specific purposes.<br>
+    <a href=http://farmer.gov.in/>Click for Website</a><br><br>
+        <h2>GOODS AND SERVICE TAX NETWORK (GSTN)</h2>
+    The GST System Project is a unique and complex IT initiative. It is unique as it seeks, for the first time to establish a uniform interface for the tax payer and a common and shared IT infrastructure between the Centre and States. The portal envisions becoming a trusted National Information Utility (NIU) which provides reliable, efficient and robust IT Backbone for the smooth functioning of the Goods & Services Tax regimen enabling economic agents to leverage the entire nation as One Market with minimal Indirect Tax compliance cost.<br>
+    <a href=http://www.gstn.org/index.php>Click for Website</a><br><br>
+    <h2>MRAKTKOSH</h2>
+    The web-based mechanism interconnects all the Blood Banks of the State into a single network. The Integrated Blood Bank MIS refers the acquisition, validation, storage and circulation of various live data and information electronically regarding blood donation and transfusion service. Such system is able to assemble heterogeneous data into legible reports to support decision making from effective donor screening to optimal blood dissemination in the field.<br>
+    <a href=http://www.eraktkosh.in/>Click for Website</a><br><br>
+    <h2>NATIONAL SCHOLARSHIP PORTAL (NSP)</h2>
+    NSP is a one-stop solution for end-to-end scholarship process right from the submission of student application, verification, sanction and disbursal to end beneficiary for all the scholarships provided by the Government of India. This initiative aims at providing a Simplified, Mission-oriented, Accountable, Responsive & Transparent 'SMART' System for faster & effective disposal of Scholarships applications and delivery of funds directly into beneficiaries account without any leakages.<br>
+    <a href=http://scholarships.gov.in/>Click for Website</a><br><br>
+     <h2>NIRBHAYA APP</h2>
+   Nirbhaya: Be Fearless© is an android emergency application, which can send a distress call or emergency message to a specified contact or group in an emergency situation faced by a woman or any other individual in general. Correct Location, Information and Communication, with and from the app is dependent upon the basic hardware/software requirements, like - Active Data plan, SMS plan, minimum talk time and active GPS functionality.<br>
+    <a href=https://play.google.com/store/apps/details?id=com.smartcloud.nirbhaya&hl=en>Click for Website</a><br><br>
+      <h2>PASSPORT SEVA PROJECT (PSP)</h2>
+   Passport Seva enables simple, efficient and transparent processes for delivery of passport and related services. Apart from creating a countrywide networked environment for Government staff, it integrates with the State Police for physical verification of applicant's credentials and with India Post for delivery of passports. The Passport Seva Project is transforming passport and related services in India to provide a best-in-class experience to Indian citizens. PSP is enabling MEA to deliver passport services in a reliable, convenient and transparent manner, within defined service levels.<br>
+    <a href=http://www.passportindia.gov.in/>Click for Website</a><br><br>
+    <h2>STARTUP INDIA PORTAL AND MOBILE APP</h2>
+   Startup India is a flagship initiative of the Government of India, intended to build a strong eco-system for nurturing innovation and Startups in the country that will drive sustainable economic growth and generate large scale employment opportunities. The Government through this initiative aims to empower Startups to grow through innovation and design.<br>
+    <a href=http://www.startupindia.gov.in/>Click for Website</a><br><br>
+    </div>
+    <div id="empowerment">
+        <h2>MYGOV</h2>
+   MyGov platform is a unique path breaking initiative which was launched by the Hon’ble Prime Minister of India, Shri Narendra Modi. It is a unique first-of-its-kind participatory governance initiative involving the common citizen at large. The idea of MyGov brings the government closer to the common man by the use of online platform creating an interface for healthy exchange of ideas and views involving the common citizen and experts with the ultimate goal to contribute to the social and economic transformation of India.<br>
+    <a href=http://mygov.in/>Click for Website</a><br><br>
+    <h2>PAYGOV INDIA</h2>
+   A National Payment Service platform has been envisaged for a common e-Governance infrastructure that will offer end-to-end transactional experience for a citizen which includes accessing various services through internet with payment gateway interface for online payments. Ministry of Electronics and Information Technology along with NSDL Database Management Ltd (NDML) created a common infrastructure that can be used by Center/States/Departments to offer various services through their National / State portals with a facility to make online payment using net banking, credit cards and debit cards.<br>
+    <a href=http://paygovindia.gov.in/>Click for Website</a><br><br>
+    <h2>SMART CITIES</h2>
+   The Government of India launched the Smart Cities Mission in June 2015. Its objective is to promote sustainable and inclusive cities that provide core infrastructure and give a decent quality of life to its citizens, a clean and sustainable environment and application of ‘Smart’ Solutions.The focus is on sustainable and inclusive development and the idea is to look at compact areas, create a replicable model which will act like a lighthouse to other aspiring cities. The Smart Cities Mission is meant to set examples that can be replicated both within and outside the Smart City, catalysing the creation of similar Smart Cities in various regions and parts of the country.<br>
+    <a href=http://smartcities.gov.in/content/>Click for Website</a><br><br>
+    </div>
+</div>
+<div class="container" style="height: 50vh;
+    width: 50%;
+    display: grid;
+    position: relative;
+    top: 15px;
+    right: -25px;
+    place-items: center;">
+    <div class="dycalendar" id="dycalendar" style="height: 48vh;width: 62vh;">
+
+    </div>
+</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dycalendarjs@1.2.1/css/dycalendar.css">
+<script src="https://cdn.jsdelivr.net/npm/dycalendarjs@1.2.1/js/dycalendar.js"></script>
+<script>
+        dycalendar.draw({
+            target: '#dycalendar',
+            dayformat: 'full',
+            type: 'month',
+            monthformat: 'full',
+            highlighttoday: true,
+            prevnextbutton: 'show'
+        })
+</script>
+<div class="buttons" style="background: black;height: 250px; width:100%;">
+         <div class="row">
+            <button class="facebook" onclick="window.location.href='https://www.facebook.com'">
+            <span><i class="fab fa-facebook-f"></i></span>
+            Facebook</button>
+            <button class="instagram" onclick="window.location.href='https://www.instagram.com'">
+            <span><i class="fab fa-instagram"></i></span>
+            Instagram</button>
+         </div>
+         <div class="row">
+            <button class="twitter" onclick="window.location.href='https://twitter.com/agreggator/status/1462699439072632833'">
+            <span><i class="fab fa-twitter"></i></span>
+            Twitter</button>
+            <button class="youtube" onclick="window.location.href='https://www.youtube.com/watch?v=7qwcpnqGkUI&feature=youtu.be'">
+            <span><i class="fab fa-youtube"></i></span>
+            YouTube</button>
+         </div>
+</div>
+<script>
+function scrolli() {
+  var elmnt = document.getElementById("infrastructure");
+  elmnt.scrollIntoView();
+}
+function scrolls() {
+  var elmnt = document.getElementById("services");
+  elmnt.scrollIntoView();
+  elmnt.style.backgroundColor = "yellow";
+}
+function scrolle() {
+  var elmnt = document.getElementById("empowerment");
+  elmnt.scrollIntoView();
+  elmnt.style.backgroundColor = "lightgreen";
+}
+function facebook() {
+    alert("We don't have a Facebook page yet, stay tuned!")
+}
+function instagram() {
+    alert("We don't have an Instagram account yet, stay tuned!")
+}
+function twitter() {
+    alert("We don't have a Twitter account yet, stay tuned!")
+}
+
+function youtube() {
+    alert("We don't have a Youtube channel yet, stay tuned!")
+}
+</script>
+</body>
+</html>
